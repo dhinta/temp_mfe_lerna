@@ -1,11 +1,4 @@
 # `shell`
 
-> TODO: description
+> Container application of micro frontend
 
-## Usage
-
-```
-const shell = require('shell');
-
-// TODO: DEMONSTRATE API
-```

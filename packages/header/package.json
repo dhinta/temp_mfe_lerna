@@ -18,7 +18,9 @@
     "url": "git+https://github.com/dhinta/temp_mfe_lerna.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js",
+    "build:local": "set DOMAIN=http://localhost:8081&&webpack --config config/webpack.prod.js"
   },
   "bugs": {
     "url": "https://github.com/dhinta/temp_mfe_lerna/issues"
