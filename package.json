@@ -5,10 +5,12 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "lerna run start",
-    "build": "lerna run build"
+    "start": "npm run kill-ports && lerna run start",
+    "build": "lerna run build",
+    "kill-ports": "kill-port --port 5000,5001,5002"
   },
   "devDependencies": {
+    "kill-port": "^1.6.1",
     "lerna": "^4.0.0"
   }
 }
