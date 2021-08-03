@@ -1,9 +1,10 @@
 import { Router } from "react-router-dom";
 
 import Header from "./header/Header";
+import { logger } from "@lerna-mono/common";
 
 const App = ({ history }) => {
-  console.log('header');
+  logger.warn("header initiated");
   return (
     <Router history={history}>
       <Header />

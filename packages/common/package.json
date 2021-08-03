@@ -1,0 +1,32 @@
+{
+  "name": "@lerna-mono/common",
+  "version": "1.0.0",
+  "description": "common libraries",
+  "author": "dhinta <relaxed.dhinta@gmail.com>",
+  "homepage": "https://github.com/dhinta/temp_mfe_lerna#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhinta/temp_mfe_lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/dhinta/temp_mfe_lerna/issues"
+  },
+  "dependencies": {
+    "loglevel": "^1.7.1"
+  }
+}

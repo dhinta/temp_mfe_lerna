@@ -26,6 +26,7 @@
     "url": "https://github.com/dhinta/temp_mfe_lerna/issues"
   },
   "dependencies": {
+    "@lerna-mono/common": "^1.0.0",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "bootstrap": "^5.0.2",
